@@ -1,0 +1,29 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Example One App (Debug)",
+      "cwd": "apps/example_one_app",
+      "request": "launch",
+      "flutterMode": "debug",
+      "toolArgs": ["--enable-impeller"],
+      "type": "dart"
+    },
+    {
+      "name": "Example One App (Profile)",
+      "cwd": "apps/example_one_app",
+      "request": "launch",
+      "type": "dart",
+      "toolArgs": ["--enable-impeller"],
+      "flutterMode": "profile"
+    },
+    {
+      "name": "Example One App (Release)",
+      "cwd": "apps/example_one_app",
+      "request": "launch",
+      "type": "dart",
+      "toolArgs": ["--enable-impeller"],
+      "flutterMode": "release"
+    }
+  ]
+}

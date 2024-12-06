@@ -1,0 +1,16 @@
+name: 🧹 Chore Request
+description: File a chore request.
+title: "[Chore]: "
+labels:
+  - "chore"
+  - "triage"
+
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What needs doing?
+      description: |
+        Please provide as much info as possible.
+    validations:
+      required: true

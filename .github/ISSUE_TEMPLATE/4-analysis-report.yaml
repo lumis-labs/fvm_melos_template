@@ -1,0 +1,15 @@
+name: 📊 Analysis Report
+description: File a analysis report.
+title: "[Analysis]: "
+labels:
+  - "analysis"
+
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What needs doing?
+      description: |
+        Please provide as much info as possible.
+    validations:
+      required: true

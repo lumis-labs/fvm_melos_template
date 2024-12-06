@@ -1,0 +1,16 @@
+name: fvm_melos_template
+
+ide:
+  intellij:
+    enabled: false
+
+sdkPath: .fvm/flutter_sdk
+
+packages:
+  - apps/**
+  - packages/**
+
+repository: https://github.com/lumis-labs/fvm_melos_template
+
+scripts:
+  analyze: flutter analyze

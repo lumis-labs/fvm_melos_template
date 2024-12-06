@@ -1,0 +1,9 @@
+name: fvm_melos_template
+version: 0.1.0
+publish: none
+
+environment: 
+  sdk: ^3.5.4
+
+dev_dependencies:
+  melos: ^6.2.0

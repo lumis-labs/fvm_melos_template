@@ -1,0 +1,19 @@
+{
+  "recommendations": [
+    "Dart-Code.dart-code",
+    "Dart-Code.flutter",
+    "redhat.vscode-yaml",
+    "redhat.vscode-xml",
+    "blaugold.melos-code",
+    "esbenp.prettier-vscode",
+    "github.vscode-github-actions",
+    "yzhang.markdown-all-in-one",
+    "DavidAnson.vscode-markdownlint",
+    "usernamehw.errorlens",
+    "aaron-bond.better-comments",
+    "streetsidesoftware.code-spell-checker",
+    "vivaxy.vscode-conventional-commits",
+    "vscode-icons-team.vscode-icons",
+    "antfu.icons-carbon"
+  ]
+}

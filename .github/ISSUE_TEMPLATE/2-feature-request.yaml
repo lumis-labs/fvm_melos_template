@@ -1,0 +1,23 @@
+name: 🚀 Feature Request
+description: File a feature request.
+title: "[Feature]: "
+labels:
+  - "enhancement"
+  - "triage"
+
+body:
+  - type: textarea
+    id: feature
+    attributes:
+      label: What would you like to be added?
+      description: |
+        Please provide information on what to be added. If it complex, please create an epic first.
+    validations:
+      required: true
+
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Why is this needed?
+    validations:
+      required: true
